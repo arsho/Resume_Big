@@ -73,6 +73,7 @@
 \newcommand{\linkedinsymbol}{\faLinkedin}
 \newcommand{\twittersymbol}{\faTwitter}
 \newcommand{\githubsymbol}{\faGithub}
+\newcommand{\certificatesymbol}{\faCertificate}
 \newcommand{\orcidsymbol}{\aiOrcid}
 \newcommand{\mailsymbol}{\faEnvelope}
 \newcommand{\briefcasesymbol}{\faBriefcase}
@@ -166,6 +167,17 @@
   \item[\small\universitysymbol] #3
   \end{description}
 }
+
+\newcommand{\cvcertificateresult}[4]{%
+  \textbf{\color{emphasis}#1}\par
+  \medskip
+  \begin{description}[font=\color{accent},style=multiline,leftmargin=1.25em]
+  \item[\small\calendarsymbol] #2
+  \item[\small\universitysymbol] #3
+  \item[\small\certificatesymbol] #4
+  \end{description}
+}
+
 
 \newcommand{\cvproject}[5]{%
   \textbf{\color{emphasis}#1}
